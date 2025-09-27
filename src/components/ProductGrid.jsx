@@ -12,7 +12,7 @@ const products = [
 
 export default function ProductGrid(){
     return(
-        <section className="mt-12 bg-brown-700">
+        <section className="mt-12 py-16 px-8 bg-gradient-to-r from-stone-100 via-stone-200 to-stone-100 rounded-xl backdrop-blur-md">
             <h2 className="text-2xl font bold text-gray-900 mb-6">Featured Products</h2>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -22,7 +22,7 @@ export default function ProductGrid(){
                         initial={{opacity: 0, y:12}}
                         animate={{opacity: 1, y:0}}
                         transition={{delay: i* 0.08}}
-                        className="group bg-white rounded-xl overflow-hidden shadow hover:shadow-xl transform hover:-translate-y-3 transition"
+                        className="group bg-white rounded-xl overflow-hidden shadow hover:shadow-xl transform hover:-translate-y-10 transition"
                     >
                         <div className="relative">
                             <img src={p.img} alt={p.name} className="w-full h-56 object-cover group-hover: scale-105 transition-transform duration-400"/>
