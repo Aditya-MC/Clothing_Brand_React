@@ -42,7 +42,7 @@ export default function Hero(){
           <motion.div
             initial={{ x: 60, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.5 }}
+            transition={{ delay: 1 }}
             className="bg-white/5 p-6 rounded-2xl backdrop-blur shadow-2xl"
           >
             <img src="/src/assets/side-model.jpg" alt="model" className="rounded-xl w-full object-cover" />
