@@ -2,7 +2,7 @@ import React from "react"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero";
 import ProductGrid from "./components/ProductGrid";
-
+import Collections from "./components/Collections";
 
 
 export default function App(){
@@ -14,6 +14,7 @@ export default function App(){
         <Hero/>
         <section className="max-w-7xl mx-auto px-6 py-20">
           <ProductGrid/>
+          <Collections />
         </section>
       </main>
       
