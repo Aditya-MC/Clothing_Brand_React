@@ -1,9 +1,9 @@
 import React from "react";
 
 const collections = [
-  { id:1, title:'Summer Drop', subtitle:'Breezy fits', img:'/public/assets/collection1.jpg' },
-  { id:2, title:'StreetCore', subtitle:'Raw & Rugged', img:'/public/assets/collection2.jpg' },
-  { id:3, title:'Traditionals', subtitle:'Divine Collections', img:'/public/assets/collection3.jpg' },
+  { id:1, title:'Summer Drop', subtitle:'Breezy fits', img:'/assets/collection1.jpg' },
+  { id:2, title:'StreetCore', subtitle:'Raw & Rugged', img:'/assets/collection2.jpg' },
+  { id:3, title:'Traditionals', subtitle:'Divine Collections', img:'/assets/collection3.jpg' },
   { id:4, title:'Casuals', subtitle:'Chill Fits', img:'/assets/collection4.jpg' },
 ];
 
