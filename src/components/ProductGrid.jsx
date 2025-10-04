@@ -6,15 +6,15 @@ const products = [
   { id: 2, name: "Ember Jacket", price: "$499", img: "/assets/product2.jpg" },
   { id: 3, name: "Washed Denim", price: "$299", img: "/assets/product3.jpg" },
   { id: 4, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
-  { id: 4, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
-  { id: 4, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
-  { id: 4, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
-  { id: 4, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
+  { id: 5, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
+  { id: 6, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
+  { id: 7, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
+  { id: 8, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
 ];
 
 export default function ProductGrid() {
   return (
-    <div className="min-h-screen bg-[#5c3d2e] flex justify-center items-center py-8 px-16">
+    <div className="min-h-screen bg-[#5c3d2e] flex justify-center items-center py-8 px-16 bg-cover bg-center">
       <section className="w-full max-w-6xl rounded-xl backdrop-blur-lg bg-white/10 border border-white/20 p-8">
         <h2 className="text-2xl font-bold text-white mb-8">Featured Products</h2>
 
