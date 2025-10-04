@@ -3,6 +3,8 @@ import React from "react";
 const collections = [
   { id:1, title:'Summer Drop', subtitle:'Breezy fits', img:'/src/assets/collection1.jpg' },
   { id:2, title:'StreetCore', subtitle:'Raw & Rugged', img:'/src/assets/collection2.jpg' },
+  { id:3, title:'Traditionals', subtitle:'Divine Collections', img:'/src/assets/collection3.jpg' },
+  { id:2, title:'Casuals', subtitle:'Chill Fits', img:'/src/assets/collection4.jpg' },
 ];
 
 export default function Collections(){
