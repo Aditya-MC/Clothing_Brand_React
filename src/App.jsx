@@ -15,12 +15,13 @@ export default function App(){
       <Navbar/>
       <main className="overflow-x-hidden">
         <Hero/>
-        <section className="max-w-7xl mx-auto px-6 py-20">
+        <section className="max-w-7xl mx-auto ">
           <ProductGrid/>
-          <Collections />
-          <Testimonials />
-          <Newsletter />
-          
+          <div className="px-6 py-20">
+            <Collections />
+            <Testimonials />
+            <Newsletter />
+          </div>
         </section>
         <Footer />
       </main>
