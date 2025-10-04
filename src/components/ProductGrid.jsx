@@ -2,14 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const products = [
-  { id: 1, name: "Raven Tee", price: "$999", img: "/public/assets/product1.jpg" },
-  { id: 2, name: "Ember Jacket", price: "$499", img: "/public/assets/product2.jpg" },
-  { id: 3, name: "Washed Denim", price: "$299", img: "/public/assets/product3.jpg" },
-  { id: 4, name: "Street Shorts", price: "$459", img: "/public/assets/product4.jpg" },
-  { id: 4, name: "Street Shorts", price: "$459", img: "/public/assets/product4.jpg" },
-  { id: 4, name: "Street Shorts", price: "$459", img: "/public/assets/product4.jpg" },
-  { id: 4, name: "Street Shorts", price: "$459", img: "/public/assets/product4.jpg" },
-  { id: 4, name: "Street Shorts", price: "$459", img: "/public/assets/product4.jpg" },
+  { id: 1, name: "Raven Tee", price: "$999", img: "/assets/product1.jpg" },
+  { id: 2, name: "Ember Jacket", price: "$499", img: "/assets/product2.jpg" },
+  { id: 3, name: "Washed Denim", price: "$299", img: "/assets/product3.jpg" },
+  { id: 4, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
+  { id: 4, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
+  { id: 4, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
+  { id: 4, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
+  { id: 4, name: "Street Shorts", price: "$459", img: "/assets/product4.jpg" },
 ];
 
 export default function ProductGrid() {
