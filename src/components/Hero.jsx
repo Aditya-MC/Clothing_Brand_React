@@ -32,7 +32,7 @@ export default function Hero(){
             transition={{ delay: 0.4 }}
             className="mt-8 flex gap-4"
           >
-            <button className="btn bg-brand.accent text-black hover:scale-105 transform transition">Shop Drop</button>
+            <button className="btn bg-brand.accent text-white hover:scale-105 transform transition">Shop Drop</button>
             <button className="btn border border-white/30 text-white hover:bg-white/10">Explore</button>
           </motion.div>
         </div>
