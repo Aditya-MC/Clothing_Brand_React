@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Hero(){
   return (
     <header className="relative h-screen flex items-center">
-      <div className="absolute inset-0 bg-[url('/src/assets/hero.jpg')] bg-cover bg-center brightness-75"></div>
+      <div className="absolute inset-0 bg-[url('/public/assets/hero.jpg')] bg-cover bg-center brightness-75"></div>
 
       <div className="relative max-w-7xl mx-auto px-6 flex items-center justify-between w-full">
         <div className="w-full max-w-2xl text-white">
