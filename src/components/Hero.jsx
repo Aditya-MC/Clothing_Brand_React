@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Hero(){
   return (
     <header className="relative h-screen flex items-center">
-      <div className="absolute inset-0 bg-[url('/public/assets/hero.jpg')] bg-cover bg-center brightness-75"></div>
+      <div className="absolute inset-0 bg-[url('/assets/hero.jpg')] bg-cover bg-center brightness-75"></div>
 
       <div className="relative max-w-7xl mx-auto px-6 flex items-center justify-between w-full">
         <div className="w-full max-w-2xl text-white">
@@ -45,7 +45,7 @@ export default function Hero(){
             transition={{ delay: 1 }}
             className="bg-white/5 p-6 rounded-2xl backdrop-blur shadow-2xl"
           >
-            <img src="/src/assets/side-model.jpg" alt="model" className="rounded-xl w-full object-cover" />
+            <img src="/assets/side-model.jpg" alt="model" className="rounded-xl w-full object-cover" />
             <div className="mt-4 text-gray-100">
               <div className="text-sm">New Drop</div>
               <div className="font-semibold">The Ember Jacket</div>
